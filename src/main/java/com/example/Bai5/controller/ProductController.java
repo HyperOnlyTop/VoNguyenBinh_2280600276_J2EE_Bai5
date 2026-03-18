@@ -11,7 +11,7 @@ import com.example.Bai5.model.Product;
 import com.example.Bai5.model.Category;
 
 @Controller
-@RequestMapping("/products")
+@RequestMapping({"/products", "/product"})
 public class ProductController {
 
     @Autowired
